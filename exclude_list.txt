@@ -1,0 +1,32 @@
+## Android Studio file and config directory
+Android
+.android
+.gradle
+.java
+
+## Download folders
+Downloads
+Lataukset
+
+## Nextcloud-folder and config files for flatpak
+Nextcloud
+.var/app/com.nextcloud.desktopclient.nextcloud
+
+## Rust-config folders
+.cargo
+.pub-cache
+.rustup
+
+## Flutter files and configs
+.dartServer
+.flutter-devtool
+
+## App caches
+.cache
+
+## Trash file folder
+.local/share/Trash
+
+## Virtual machines
+.config/libvirt
+.local/share/libvirt
