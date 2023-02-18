@@ -1,8 +1,8 @@
 ## Backup destination examples ##
 
-user@server-ip-address:/home/user/backups' ## Backup via ssh
-/home/user/backups' ## to local folder
-/mnt/usbdrive' ## to external usbdrive
+## user@server-ip-address:/home/user/backups' ## Backup via ssh
+## /home/user/backups' ## to local folder
+## /mnt/usbdrive' ## to external usbdrive
 
 ## Modify backup-source and -destination to your liking between ''
 
