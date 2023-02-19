@@ -1,0 +1,5 @@
+# Config-file with credentials
+/config.cfg
+
+#Logs directory
+/logs/
