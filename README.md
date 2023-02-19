@@ -45,7 +45,7 @@ EXCLUDE_LIST = Exclude files from backup. Modify EXCLUDE_LIST.txt to you liking.
 
 ## RESTORE:
 
-Coming soon!
+To restore backup from server of backup-media, modify backup source and destination in the config file.
 
 --------------------------------------------------------------------------------
 
