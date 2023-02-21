@@ -33,7 +33,7 @@ notify-send -u normal -t 10000 --app-name=Rsync "Backup started" --icon=mintback
 
 ## Back HOME with rsync
 . $SCRIPT_DIR/config.cfg
-/usr/bin/rsync -avlz --delete --update --existing --progress --human-readable --exclude-from $SCRIPT_DIR/exclude_list.txt $BACKUP_SOURCE $BACKUP_DESTINATION > $LOG_DIR/backup-${DATE}.txt
+/usr/bin/rsync -avlz --delete-excluded --update --existing --progress --human-readable --exclude-from $SCRIPT_DIR/exclude_list.txt $BACKUP_SOURCE $BACKUP_DESTINATION > $LOG_DIR/backup-${DATE}.txt
 
 ## Check if backup was successful
 
