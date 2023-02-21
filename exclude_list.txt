@@ -23,8 +23,9 @@ Nextcloud
 .rustup
 
 ## Flutter files and configs
+.dart
 .dartServer
-.flutter-devtool
+.flutter-devtools
 
 ## Virtual machines
 .config/libvirt
